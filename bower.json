@@ -1,0 +1,32 @@
+{
+  "name": "stickyNav",
+  "version": "1.0.0",
+  "main": [
+    "jquery.stickyNav.js"
+  ],
+  "ignore": [
+    "**/*.md",
+    "**/*.html",
+    "bower_components"
+  ],
+  "keywords": [
+    "sticky nav",
+    "sticky navigation",
+    "navigation"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.11.0"
+  },
+  "authors": [
+    {
+      "name": "Sanish Maharjan",
+      "email": "mjsanish@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/sanishmaharjan/stickyNav",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sanishmaharjan/stickyNav.git"
+  }
+}

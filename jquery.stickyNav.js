@@ -39,6 +39,7 @@
                         if (stickyNav.options.scrollUp) {
                             $(".sticky-nav").css({
                                     "position": "fixed",
+                                    "width": $(".sticky-nav").parent().width(),
                                     "top": stickyNav.options.top,
                                     "left": leftPosition
                                 }
@@ -49,6 +50,7 @@
                             if ($(".sticky-nav").css("position") == "fixed") {
                                 $(".sticky-nav").css({
                                     "position": "absolute",
+                                    "width": $(".sticky-nav").parent().width(),
                                     "top": scrollTop + stickyNav.options.top,
                                     "left": 0
                                 });

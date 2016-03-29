@@ -37,13 +37,11 @@
                 $(window).scroll(function (event) {
                     var scrollTop = $(window).scrollTop();
                     if (stickyNav.lastScrollTop > scrollTop) {
-                        console.log("scroll down");
                         if (stickyNav.options.scrollUp) {
                             $(".sticky-nav").css("position", "fixed");
                             $(".sticky-nav").css("top", stickyNav.options.top);
                         }
                     } else {
-                        console.log("scroll up");
                         if (stickyNav.options.scrollUp) {
                             if ($(".sticky-nav").css("position") == "fixed") {
                                 $(".sticky-nav").css("position", "absolute");

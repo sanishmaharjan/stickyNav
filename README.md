@@ -25,5 +25,5 @@ Options.
 * zIndex : z-index value of sticky navigation | default 10
 * backgroundColor : sticky navigation background color | default "#ffffff"
 * scrollUp : 
- -- If true sticky navigation will be scroll on page scroll up & appear on scroll down even page scroll not reach to top. 
- -- If false sticky navigation always sticky to the top position.
+  - If true sticky navigation will be scroll on page scroll up & appear on scroll down even page scroll not reach to top. 
+  - If false sticky navigation always sticky to the top position.

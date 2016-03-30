@@ -62,7 +62,9 @@
             }
         };
 
-        stickyNav.init();
+        if($element.length){
+            stickyNav.init();
+        }
         return this;
     };
 }(jQuery));

@@ -1,4 +1,4 @@
-#stickyNav 1.0.3
+#stickyNav 1.0
 A jQuery plugin for sticky navigation.
 
 ## Installation  

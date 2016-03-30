@@ -1,12 +1,10 @@
 {
   "name": "stickyNav",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "main": [
     "jquery.stickyNav.js"
   ],
   "ignore": [
-    "**/*.md",
-    "**/*.html",
     "bower_components"
   ],
   "keywords": [
